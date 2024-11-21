@@ -42,6 +42,30 @@ Type in the Matlab command window:
 ```
 or Find CMCollect in the APP tab of Matlab.
 
+# How to use
+
+## MATLAB
+
+```matlab
+load('italy')
+
+x = linspace(0, 10, 100);
+y = linspace(0, 10, 100);
+[X, Y] = meshgrid(x, y);
+Z = sin(X) .* cos(Y);
+
+figure;
+contourf(X, Y, Z, 100, 'LineStyle', 'none'); 
+colormap(cmITALY) 
+colorbar;
+title('Custom Colormap Example in MATLAB');
+xlabel('X-axis');
+ylabel('Y-axis');
+```
+
+The chart will display data represented with the custom colormap exported from MATLAB, allowing for a professional and consistent visualization in Python. This approach works for any colormap generated in MATLAB and converted to Python.
+
 # Cite as
 
 Humberto L. Varona, Silena Herold-Garcia. (2024). Colormap Collection for MATLAB and Python (CMCollect). (1.0). Zenodo. https://doi.org/10.5281/zenodo.14193220.
+
