@@ -1,0 +1,37 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Colormap Collection for MATLAB and Python (CMCollect)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Varona
+    given-names: Humberto L.
+    email: humberto.varona@gmail.com
+    affiliation: >-
+      Center for Risk Analysis and Environmental Modeling (CEERMA),
+      Federal University of Pernambuco. Recife, PE, Brazil.
+    orcid: 'https://orcid.org/0000-0001-7405-4827'
+  - family-names: Herold-Garcia
+    given-names: Silena
+    email: silena.herold@gmail.com
+    affiliation: >-
+      Center for Risk Analysis and Environmental Modeling (CEERMA),
+      Federal University of Pernambuco. Recife, PE, Brazil.
+    orcid: 'https://orcid.org/0000-0001-9238-3472'
+repository-code: 'https://doi.org/10.5281/zenodo.14193220'
+abstract: >-
+  Explore a comprehensive collection of colormaps designed for seamless
+  integration with MATLAB and Python. These colormaps cater to diverse
+  visualization needs, from scientific data representation to creative designs.
+  Effortlessly enhance your plots with vivid and intuitive color schemes
+  optimized for clarity and aesthetics.
+keywords:
+  - Custom colormaps
+license: CC-BY-NC-4.0
+version: '1.0'
+date-released: '2024-10-19'
